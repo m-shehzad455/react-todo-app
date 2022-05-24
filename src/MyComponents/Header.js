@@ -5,7 +5,7 @@ export default function Header(props) {
   return (
     <nav className="navbar navbar-expand-lg bg-light">
     <div className="container-fluid">
-      <a className="navbar-brand" href="#">
+      <a className="navbar-brand" href="#">My Todo List
         {props.title}
       </a>
       <button
